@@ -42,6 +42,7 @@ exports.handler = async (event) => {
     // 3. Set up and run the Python script
     const options = {
       mode: 'text',
+      pythonPath: 'python', // <-- THIS IS THE FIX
       pythonOptions: ['-u'], // get print results in real-time
       scriptPath: path.dirname(__filename), // path to this function's directory
       args: [tempCsvPath, tempPdfPath], // pass input/output paths to python
