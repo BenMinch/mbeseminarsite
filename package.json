@@ -2,7 +2,7 @@
   "name": "python-wrapper-function",
   "version": "1.0.0",
   "dependencies": {
-    "busboy": "^1.6.0",
+    "@fastify/busboy": "^2.1.0",
     "python-shell": "^5.0.0"
   }
 }
