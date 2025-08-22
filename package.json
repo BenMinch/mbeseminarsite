@@ -1,8 +1,9 @@
 {
-  "name": "python-wrapper-function",
+  "name": "javascript-pdf-generator",
   "version": "1.0.0",
   "dependencies": {
     "@fastify/busboy": "^2.1.0",
-    "python-shell": "^5.0.0"
+    "csv-parser": "^3.0.0",
+    "pdfkit": "^0.15.0"
   }
 }
