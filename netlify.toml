@@ -1,9 +1,9 @@
 [build]
-  command = "pip install -r requirements.txt"
+  command = "npm install && pip install -r requirements.txt"
   functions = "netlify/functions"
-  publish = "." # Serve files from the root directory
+  publish = "."
 
 [[redirects]]
   from = "/generate-report"
-  to = "/.netlify/functions/process_file"
-  status = 200 # Rewrite the request to the function without changing the URL
+  to = "/.netlify/functions/process-file"
+  status = 200
